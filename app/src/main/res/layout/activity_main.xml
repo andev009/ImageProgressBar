@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <com.andev.imageprogressbar.ImageProgressBar
+        android:layout_width="100dip"
+        android:layout_height="30dip"
+        app:ipb_background_color="#EBEBEB"
+        app:ipb_progressbar_progress="90"
+        />
+
+    <com.andev.imageprogressbar.ImageProgressBar
+        android:id="@+id/ipb_no2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        app:ipb_background_color="#EBEBEB"
+        app:ipb_progressbar_progress="10"
+        />
+
+    <com.andev.imageprogressbar.ImageProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:layout_marginTop="15dip"
+        app:ipb_background_color="#EBEBEB"
+        app:ipb_progressbar_res="@drawable/tab_me_selected"
+        app:ipb_progressbar_progress="50"
+        />
+
+    <com.andev.imageprogressbar.ImageProgressBar
+        android:id="@+id/ipb_no4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        app:ipb_background_color="#7FFF00"
+        app:ipb_progressbar_res="@drawable/order_details_recommend"
+        app:ipb_progressbar_progress="10"
+        app:ipb_progressbar_max="200"
+        />
+
+    <com.andev.imageprogressbar.ImageProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        app:ipb_background_color="#EE7600"
+        app:ipb_progressbar_progress="47"
+        />
+
+    <com.andev.imageprogressbar.ImageProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:layout_marginTop="15dip"
+        app:ipb_background_color="#C0FF3E"
+        app:ipb_progressbar_progress="37"
+        />
+
+    <com.andev.imageprogressbar.ImageProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:layout_marginTop="15dip"
+        app:ipb_progressbar_progress="97"
+        />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ImageProgressBar">
+        <attr name="ipb_background_color" format="color"/>
+        <attr name="ipb_progressbar_res" format="reference"/>
+        <attr name="ipb_progressbar_progress" format="integer"/>
+        <attr name="ipb_progressbar_max" format="integer"/>
+    </declare-styleable>
+</resources>
