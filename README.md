@@ -3,7 +3,7 @@ A sample android widget, easy to use. Inspired by [NumberProgressBar](https://gi
 ### Usage
 this can be used in xml file like this:
 ```java
-<com.unrealbox.imageprogressbar.ImageProgressBar
+<com.andev.imageprogressbar.ImageProgressBar
         android:id="@+id/ipb_no4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
