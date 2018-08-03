@@ -1,4 +1,4 @@
-...///# Android-ImageProgressBar
+# Android-ImageProgressBar
 A sample android widget, easy to use. Inspired by [NumberProgressBar](https://github.com/daimajia/NumberProgressBar).
 ### Usage
 this can be used in xml file like this:
